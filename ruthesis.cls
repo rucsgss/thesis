@@ -371,21 +371,21 @@
          }
         \vskip 2ex plus 2ex minus 2ex 
         {\centering\bfseries
-          BY \uppercase\expandafter{\@author}\par
+          by\\ \uppercase\expandafter{\@author}\par
           \nobreak
           \vskip 4ex plus 2ex minus 2ex 
           \ifdraft%
             {DRAFT VERSION CREATED ON \uppercase\expandafter{\today}\\}
           \else %
              A \ifphd{dissertation}\else{thesis}\fi\ submitted to the\\
-             Graduate School---\@campus \\
+             School of Graduate Studies\\
              Rutgers, The State University of New Jersey\\
              \ifjoint{in conjunction with\\ \obeylines\@jointwith\par}\fi
-             \ifjoint{in partial fulfillment of the requirements 
+             \ifjoint{In partial fulfillment of the requirements 
                 for the\\ Joint Degree of}
                 \else %
-                  in partial fulfillment of the requirements \\
-                  for the degree of\\ 
+                  In partial fulfillment of the requirements \\
+                  For the degree of\\ 
              \fi 
              \@degree\\
              Graduate Program in \@program\\
@@ -443,8 +443,8 @@
                 \vskip72bp
                 \Large\bfseries\expandafter{\@title} \large
                 \vskip30bp
-                by \@author\\
-                \ifphd Dissertation\else Thesis\fi\ Director: \@director
+                By \@author\\
+                \ifphd Dissertation\else Thesis\fi\ Director:\\ \@director
                 \vskip 31bp}
                 \end{center}
                 \@abstract}
